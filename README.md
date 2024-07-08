@@ -1,10 +1,15 @@
 # image-search-app
 
 ## Description
-The Image Search Web App that lets you search for any desired image. You can enter your search query and receive results accompanied by a description. The app is responsive and displays images in a single column on smaller ones. Using the Unsplash API, the app fetches up to 1000 unique and non-repetitive images. The modern CSS design ensures a fast and responsive user experience, making it enjoyable to search for cats, dogs, or any image.
+The Image Search Web App that lets you search for any desired image. You can enter your search query and receive results accompanied by a description. The app is responsive and displays images in a single column on smaller ones. Using the Unsplash API, the app fetches up to 1000 unique and non-repetitive images. The modern CSS design ensures a fast and responsive user experience, making it enjoyable to search for cats, dogs or any image.
 
 ## Prerequisites
-N/A
+Unsplash API key 
+
+## Features
+* Search for images using keywords.
+* Display image results in a grid format.
+* Responsive design for mobile and desktop use.
 
 ## Technologies Used
 Built with:
@@ -17,7 +22,9 @@ Built with:
 N/A
 
 ## Usage
-N/A
+* Open the Image Search web application in your browser.
+* Enter a keyword in the search bar and press "Enter" or click the search button.
+* Browse the image results displayed in a grid.
 
 ## Project Link
 Application can can be viewed here: 
