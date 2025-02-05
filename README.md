@@ -1,46 +1,51 @@
 # image-search-app
 
-## Description
-The Image Search Web App that lets you search for any desired image. You can enter your search query and receive results accompanied by a description. The app is responsive and displays images in a single column on smaller ones. Using the Unsplash API, the app fetches up to 1000 unique and non-repetitive images. The modern CSS design ensures a fast and responsive user experience, making it enjoyable to search for cats, dogs or any image.
+## 📌 Description
+The Image Search App allows users to search for images based on specific keywords. Using the Unsplash API, it fetches up to 1000 unique and high-quality images that are displayed along with descriptions. The app features a clean, modern design and is fully responsive, adjusting to mobile and desktop views. It's perfect for quickly searching for images of anything—cats, dogs, nature, or anything else you're curious about.
 
-## Prerequisites
-Unsplash API key 
+## 🛠 Prerequisites
+Before running the app, ensure you have an Unsplash API key. You can get one by signing up at Unsplash Developer.
 
-## Features
-* Search for images using keywords.
-* Display image results in a grid format.
-* Responsive design for mobile and desktop use.
+## 📋 Criteria
+* Search Functionality: Search for images by entering any keyword.
+* Grid Layout: View image results in a responsive grid format.
+* Responsive Design: Optimized for mobile, tablet, and desktop devices.
+* Image Descriptions: Each image includes a brief description from the Unsplash API.
 
-## Technologies Used
-Built with:
+## 💻 Technologies Used
+This project was built using:
 * HTML
 * CSS
 * JavaScript
 * Unsplash API
 
-## Installation
-N/A
+## 🚀 Installation
+No installation required. The app is live and can be accessed directly through the provided link. Simply open the live application in your browser.
 
-## Usage
-* Open the Image Search web application in your browser.
-* Enter a keyword in the search bar and press "Enter" or click the search button.
-* Browse the image results displayed in a grid.
+## 📚 Usage
+1. Open the Image Search App in your browser.
+2. Enter a keyword in the search bar (e.g., "cats", "dogs", or "nature").
+3. Press "Enter" or click the search button to fetch image results.
+4. Browse through the images displayed in a clean, responsive grid layout.
 
-## Project Link
-Application can can be viewed here: 
+## 🔗 Live Demo & Repository
+Application can be viewed here:
 * [Live](https://yvonnesarah.github.io/image-search-app/)
 
 * [Repository](https://github.com/yvonnesarah/image-search-app)
 
-## Screenshot(S)
+## 🖼 Screenshot(S)
 Image Search App
 ![Screenshot](assets/images/image-search.png "Image Search App")
 
-Image Search App Example
+Image Search Example
 ![Screenshot](assets/images/image-search-example.png "Image Search App Example")
 
-## Credit
-N/A
+## 👥 Credit
+Unsplash API for providing access to a vast collection of high-quality, royalty-free images.
 
-## Licence
-Please refer to the LICENSE in the repo.
+## 📜 License
+This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
+
+## 📬 Contact
+You can reach me at 📧 yvonneadedeji.sarah@gmail.com.
