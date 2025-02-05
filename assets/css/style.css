@@ -1,127 +1,144 @@
+/* Body styling */
 body {
-  background-color: #109ee3;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  margin: 0;
+  background-color: #109ee3; /* Blue background color */
+  font-family: Arial, Helvetica, sans-serif; /* Font style */
+  line-height: 1.6; /* Line height for better readability */
+  margin: 0; /* Removes default margin */
 }
 
+/* Main heading (h1) styling */
 h1 {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  color: white;
+  font-size: 36px; /* Large font size for the title */
+  font-weight: bold; /* Makes the font bold */
+  text-align: center; /* Centers the text */
+  margin-top: 40px; /* Adds space above the heading */
+  margin-bottom: 60px; /* Adds space below the heading */
+  color: white; /* White color for the text */
 }
 
+/* Form styling */
 form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 60px;
+  display: flex; /* Uses flexbox to align children elements */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  margin-bottom: 60px; /* Adds space below the form */
 }
 
+/* Search input field styling */
 #search-input {
-  width: 60%;
-  max-width: 400px;
-  padding: 10px 20px;
-  border: none;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  font-size: 18px;
-  color: black;
+  width: 60%; /* Sets width to 60% of the parent container */
+  max-width: 400px; /* Limits the maximum width */
+  padding: 10px 20px; /* Adds padding inside the input */
+  border: none; /* Removes default border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  border-radius: 5px; /* Rounds the corners */
+  font-size: 18px; /* Font size for the input text */
+  color: black; /* Text color inside the input */
 }
 
+/* Search button styling */
 #search-button {
-  padding: 10px 20px;
-  background-color: #a105ed;
-  color: white;
-  border: none;
-  font-size: 18px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
+  padding: 10px 20px; /* Padding for button size */
+  background-color: #a105ed; /* Purple background color */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  font-size: 18px; /* Font size for the button text */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  border-radius: 5px; /* Rounds the corners */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
 }
 
+/* Search button hover effect */
 #search-button:hover {
-  background-color: #c110b4 ;
-
+  background-color: #c110b4; /* Darkens the background on hover */
 }
 
+/* Search results container styling */
 .search-results {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px;
+  display: flex; /* Uses flexbox for layout */
+  flex-wrap: wrap; /* Allows wrapping of items */
+  justify-content: space-between; /* Spreads out the items */
+  max-width: 1200px; /* Maximum width of the results container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 60px; /* Padding inside the container */
 }
 
+/* Individual search result item styling */
 .search-result {
-  margin-bottom: 100px;
-  width: 30%;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  margin-bottom: 100px; /* Adds space below each result */
+  width: 30%; /* Sets width to 30% of the container */
+  border-radius: 5px; /* Rounds the corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  overflow: hidden; /* Hides overflow content */
 }
 
+/* Hover effect on search result images */
 .search-result:hover img {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Slightly zooms the image */
 }
 
+/* Image inside each search result */
 .search-result img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
+  width: 100%; /* Makes the image width 100% of its container */
+  height: 200px; /* Sets a fixed height for images */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
 }
+
+/* Link styling inside the search result */
 .search-result a {
-  padding: 10px;
-  display: block;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
+  padding: 10px; /* Padding for the link */
+  display: block; /* Makes the link a block element */
+  color: white; /* White text color */
+  text-decoration: none; /* Removes underline */
+  transition: background-color 0.3s ease-in-out; /* Smooth background color change */
 }
 
+/* Hover effect on link inside search result */
 .search-result:hover a {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1); /* Light background color on hover */
 }
 
+/* Show more button styling */
 #show-more-button {
-  background-color: #a105ed;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  display: none;
+  background-color: #a105ed; /* Purple background color */
+  border: none; /* Removes default border */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding for the button size */
+  display: block; /* Makes the button a block element */
+  margin: 20px auto; /* Centers the button horizontally */
+  text-align: center; /* Centers text inside the button */
+  border-radius: 5px; /* Rounds the corners */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
+  display: none; /* Initially hides the button */
 }
 
+/* Hover effect on Show more button */
 #show-more-button:hover {
-  background-color: #c110b4;
+  background-color: #c110b4; /* Darkens the background on hover */
 }
 
+/* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .search-result {
-    width: 45%;
+    width: 45%; /* Changes width of search results to 45% */
   }
 }
+
+/* Media query for screens smaller than 480px */
 @media screen and (max-width: 480px) {
   .search-result {
-    width: 100%;
+    width: 100%; /* Changes width to 100% for smaller screens */
   }
 
   form {
-    flex-direction: column;
+    flex-direction: column; /* Stacks the form elements vertically */
   }
 
   #search-input {
-    margin-bottom: 20px;
-    width: 85%;
+    margin-bottom: 20px; /* Adds margin below the input field */
+    width: 85%; /* Adjusts the width to 85% */
   }
 }
