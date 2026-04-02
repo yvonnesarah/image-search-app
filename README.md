@@ -4,7 +4,11 @@
 The Image Search App allows users to search for images based on specific keywords. Using the Unsplash API, it fetches up to 1000 unique and high-quality images that are displayed along with descriptions. The app features a clean, modern design and is fully responsive, adjusting to mobile and desktop views. It's perfect for quickly searching for images of anything—cats, dogs, nature, or anything else you're curious about.
 
 ## 🛠 Prerequisites
-Before running the app, ensure you have an Unsplash API key. You can get one by signing up at Unsplash Developer.
+Before running the app, ensure you have the following:
+* A modern web browser (Chrome, Firefox, Safari, Edge)
+* An Unsplash API key – You can get one by signing up at Unsplash Developer.
+* Basic internet connection to fetch images from the API.
+
 
 ## 📋 Features
 * Search Functionality: Search for images by entering any keyword.
@@ -40,6 +44,14 @@ Image Search App
 
 Image Search Example
 ![Screenshot](assets/images/image-search-example.png "Image Search App Example")
+
+## 🚀 Future Improvements
+* 🔍 Advanced Search Filters – Filter images by orientation, color, or popularity.
+* ⭐ Favorites Feature – Allow users to save favorite images for later.
+* 📱 Enhanced Mobile Experience – Improve touch interactions and performance on smaller screens.
+* 🌙 Dark Mode Toggle – Provide a dark/light theme for better accessibility.
+* ⬇️ Download Option – Enable users to download images directly from the app.
+* 📊 Pagination or Infinite Scroll – Load more images seamlessly as users scroll.
 
 ## 👥 Credit
 Unsplash API for providing access to a vast collection of high-quality, royalty-free images.
