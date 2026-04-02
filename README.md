@@ -6,7 +6,7 @@ The Image Search App allows users to search for images based on specific keyword
 ## 🛠 Prerequisites
 Before running the app, ensure you have an Unsplash API key. You can get one by signing up at Unsplash Developer.
 
-## 📋 Criteria
+## 📋 Features
 * Search Functionality: Search for images by entering any keyword.
 * Grid Layout: View image results in a responsive grid format.
 * Responsive Design: Optimized for mobile, tablet, and desktop devices.
